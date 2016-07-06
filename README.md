@@ -12,7 +12,7 @@ This a Snake Client written in Java 8.
 
 A. Clone the repository: `git clone https://github.com/cygni/snakebot-clients.git`.
 
-B. Open: `<repo>/snakebot-java`
+B. Open: `<repo>/`
 
 C. Execute: `./gradlew build`
 
