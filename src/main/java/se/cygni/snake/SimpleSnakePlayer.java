@@ -142,6 +142,11 @@ public class SimpleSnakePlayer extends BaseSnakeClient {
     }
 
     @Override
+    public void onGameLink(GameLinkEvent gameLinkEvent) {
+        LOGGER.info("The game can be viewed at: {}", gameLinkEvent.getUrl());
+    }
+
+    @Override
     public void onSessionClosed() {
         LOGGER.info("Session closed");
     }
