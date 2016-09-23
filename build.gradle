@@ -20,8 +20,8 @@ compileJava {
 }
 
 dependencies {
-    compile group: 'se.cygni.snakebot', name: 'snakebot-client', version: '0.1.13', changing: true
-    compile group: 'se.cygni.snakebot', name: 'snakebot-client-util', version: '0.1.13', changing: true
+    compile group: 'se.cygni.snakebot', name: 'snakebot-client', version: '0.1.14', changing: true
+    compile group: 'se.cygni.snakebot', name: 'snakebot-client-util', version: '0.1.14', changing: true
 }
 
 task run(type:JavaExec) {
@@ -30,5 +30,5 @@ task run(type:JavaExec) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.0'
+    gradleVersion = '3.1'
 }
