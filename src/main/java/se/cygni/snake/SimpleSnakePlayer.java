@@ -25,17 +25,17 @@ public class SimpleSnakePlayer extends BaseSnakeClient {
     private static final Logger LOGGER = LoggerFactory.getLogger(SimpleSnakePlayer.class);
 
     // Set to false if you want to start the game from a GUI
-    private static final boolean AUTO_START_GAME = true;
+    private static final boolean AUTO_START_GAME = false;
 
     // Personalise your game ...
     private static final String SERVER_NAME = "snake.cygni.se";
-    private static final int SERVER_PORT = 80;
+    private static  final int SERVER_PORT = 80;
 
     private static final GameMode GAME_MODE = GameMode.TRAINING;
     private static final String SNAKE_NAME = "The Simple Snake";
 
     // Set to false if you don't want the game world printed every game tick.
-    private static final boolean ANSI_PRINTER_ACTIVE = true;
+    private static final boolean ANSI_PRINTER_ACTIVE = false;
     private AnsiPrinter ansiPrinter = new AnsiPrinter(ANSI_PRINTER_ACTIVE, true);
 
     public static void main(String[] args) {
