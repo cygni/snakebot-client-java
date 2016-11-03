@@ -114,6 +114,12 @@ public class SimpleSnakePlayer extends BaseSnakeClient {
     }
 
     @Override
+    public void onGameResult(GameResultEvent gameResultEvent) {
+        LOGGER.info("Game result:");
+        gameResultEvent.getPlayerRanks().forEach(playerRank -> LOGGER.info(playerRank.toString()));
+    }
+
+    @Override
     public void onGameEnded(GameEndedEvent gameEndedEvent) {
         LOGGER.debug("GameEndedEvent: " + gameEndedEvent);
     }
