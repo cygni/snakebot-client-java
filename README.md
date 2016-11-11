@@ -10,7 +10,7 @@ This a Snake Client written in Java 8.
 
 ## Installation
 
-A. Clone the repository: `git clone https://github.com/cygni/snakebot-clients.git`.
+A. Clone the repository: `git clone https://github.com/cygni/snakebot-client-java.git`.
 
 B. Open: `<repo>/`
 
