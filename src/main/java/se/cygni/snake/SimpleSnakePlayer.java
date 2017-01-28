@@ -32,6 +32,7 @@ public class SimpleSnakePlayer extends BaseSnakeClient {
     private static  final int SERVER_PORT = 80;
 
     private static final GameMode GAME_MODE = GameMode.TRAINING;
+    private static final String ARENA_NAME = "official";
     private static final String SNAKE_NAME = "The Simple Snake";
 
     // Set to false if you don't want the game world printed every game tick.
@@ -40,6 +41,9 @@ public class SimpleSnakePlayer extends BaseSnakeClient {
 
     public static void main(String[] args) {
         SimpleSnakePlayer simpleSnakePlayer = new SimpleSnakePlayer();
+        if (GAME_MODE == GameMode.ARENA) {
+            simpleSnakePlayer.setArenaName(ARENA_NAME);
+        }
 
         try {
             ListenableFuture<WebSocketSession> connect = simpleSnakePlayer.connect();
