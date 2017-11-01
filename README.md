@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.snake.cygni.se/buildStatus/icon?job=snake client java)](http://jenkins.snake.cygni.se/job/snake%20client%20java/)
+[![Build Status](http://jenkins.snake.cygni.se/buildStatus/icon?job=snake%20client%20java)](http://jenkins.snake.cygni.se/job/snake%20client%20java/)
 
 This a Snake Client written in Java 8.
 
