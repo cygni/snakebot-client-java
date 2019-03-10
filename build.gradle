@@ -28,7 +28,3 @@ task run(type:JavaExec) {
    main = 'se.cygni.snake.SimpleSnakePlayer'
    classpath = sourceSets.main.runtimeClasspath
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.1'
-}
