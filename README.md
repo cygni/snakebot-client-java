@@ -4,26 +4,15 @@ This a Snake Client written in Java 8.
 
 ## Requirements
 
-* Java JDK >= 8
-* Gradle
-* Snake Server (local or remote)
+* JDK >= 8 
 
-## Installation
+## Installation & usage
 
-A. Clone the repository: `git clone https://github.com/cygni/snakebot-client-java.git`.
+1. Clone the repository: `git clone https://github.com/cygni/snakebot-client-java.git`.
 
-B. Open: `<repo>/`
+1. Open: `<repo>/`
 
-C. Execute: `./gradlew build`
-
-## Usage
-
-To clean and build:
-```
-> ./gradlew clean build
-```
-
-To run your client:
+1. Run
 ```
 > ./gradlew run
 ```
