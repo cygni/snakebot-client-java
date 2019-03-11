@@ -16,3 +16,6 @@ out
 
 # OSX
 .DS_Store
+/.project
+/.classpath
+/bin/
