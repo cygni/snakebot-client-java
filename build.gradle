@@ -7,6 +7,7 @@ configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
 
+
 repositories {
     mavenLocal()
     mavenCentral()
@@ -20,11 +21,14 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile group: 'se.cygni.snakebot', name: 'snakebot-client', version: '0.1.18', changing: false
-    compile group: 'se.cygni.snakebot', name: 'snakebot-client-util', version: '0.1.18', changing: false
+	implementation(group: 'se.cygni.snakebot', name: 'snakebot-client', version: '0.1.19')
+	implementation(group: 'se.cygni.snakebot', name: 'snakebot-client-util', version: '0.1.19')
+	implementation(group: 'se.cygni.snakebot', name: 'snakebot-api', version: '0.1.19')
 }
+
 
 task run(type:JavaExec) {
    main = 'se.cygni.snake.SimpleSnakePlayer'
    classpath = sourceSets.main.runtimeClasspath
 }
+
