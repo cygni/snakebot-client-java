@@ -12,7 +12,7 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
-        url "http://mavenrepo.snake.cygni.se"
+        url "http://178.79.145.58:81"
     }
 }
 
