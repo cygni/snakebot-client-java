@@ -20,3 +20,6 @@ out
 /.classpath
 /bin/
 /.settings/
+
+# VS Code
+.vscode
