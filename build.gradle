@@ -21,9 +21,9 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-	implementation(group: 'se.cygni.snakebot', name: 'snakebot-client', version: '0.1.19')
-	implementation(group: 'se.cygni.snakebot', name: 'snakebot-client-util', version: '0.1.19')
-	implementation(group: 'se.cygni.snakebot', name: 'snakebot-api', version: '0.1.19')
+    implementation(group: 'se.cygni.snakebot', name: 'client-util', version: '0.1.20')
+	implementation(group: 'se.cygni.snakebot', name: 'client', version: '0.1.20')
+	implementation(group: 'se.cygni.snakebot', name: 'api', version: '0.1.20')
 }
 
 
